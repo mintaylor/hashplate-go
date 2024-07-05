@@ -22,7 +22,7 @@ result := Hashplate("Hello World!", defaultOptions)
 
 如果在选项中启用了 CN，那么格式是：
 ```
-<emoji> <2个大写字母>·<5个大写字母> <emoji>
+<emoji> <1个汉字省份缩写1个大写字母>·<5个大写字母> <emoji>
 ```
 
 可以通过设置Emoji参数为false来移除表情符号。
@@ -42,4 +42,5 @@ Hashplate("Hello World!", Options{ExcludeOI: true})
 ## 致谢
 
 forked from Project [hashplate](https://github.com/hugoattal/hashplate)
+
 forked from Project [hashplate-cn](https://github.com/cunzaizhuyi/hashplate-cn)

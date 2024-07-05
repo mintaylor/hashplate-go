@@ -22,7 +22,7 @@ The hash is generated in the following format:
 
 If the CN option is enabled in the options, the format is:
 ```
-<emoji> <2 uppercase letters>·<5 uppercase letters> <emoji>
+<emoji> <emoji> <1 Chinese character provincial abbreviation, 1 uppercase letter>·<5 uppercase letters> <emoji> <emoji>
 ```
 
 You can remove emoji by passing the second parameter.
@@ -42,4 +42,5 @@ Hashplate("Hello World!", Options{ExcludeOI: true})
 ## Credit
 
 forked from Project [hashplate](https://github.com/hugoattal/hashplate)
+
 forked from Project [hashplate-cn](https://github.com/cunzaizhuyi/hashplate-cn)
